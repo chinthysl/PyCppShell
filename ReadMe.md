@@ -1,9 +1,9 @@
-*************************************************************************************
-***********************Instructions to compile and run*******************************
-*************************************************************************************
+# *************************************************************************************
+# ***********************Instructions to compile and run*******************************
+# *************************************************************************************
 
 
-***************Shell Programming**********
+# ***************Shell Programming**********
 
 1.  Create a script that recursively downloads a given webpage and finds all hyperlink in that
     webpage. It should then explore all the hyperlinks and carry doing that in a recursive way. In
@@ -32,7 +32,7 @@ cd ShellScripts
 2) sudo ./DropIPs.sh ip.blocked <minutes>
 
 
-*************C++ Programming**************
+# *************C++ Programming**************
 
 1.  Write a socket server program that listens on port 2999. Through this socket program you
     are able to execute the script that you wrote in Problem 1 of Shell Programming Question
@@ -67,7 +67,7 @@ cd CppCodes
 2) g++ PThreads.cpp -o pthreads -lpthread
    ./pthreads
 
-************Python Programming************
+# ************Python Programming************
 
 1.  Write a python socket server program that listens on port 3111 and forwards the request to
     port 2999 (the socket server from first problem of C++ programming question). In other
@@ -77,9 +77,7 @@ cd CppCodes
     programming question) to Python socket program is returned all the way back to the client
     user which initially connected to port 3111. Here is how it looks:
     
-    C++ Socket      ----->  Python Socket   ----->  Client User
-    Server on port  <-----  Server on port  <-----
-    2999                    3111
+    C++ Socket Server on 2999 <-----> Python Socket Server on 3111 <-----> Client User 3111
     
 2.  Write a program that displays all the data packet that flows through the given network
     interface. For example, if network interface eth0 is selected, it displays all the incoming and
