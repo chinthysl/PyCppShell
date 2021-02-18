@@ -4,7 +4,7 @@ Combination of Python, C++, and Shell script regarding basic socket programming 
 
 - [ShellScripts](#ShellScripts)
 - [CppCodes](#CppCodes)
-- [ShellScripts](#PythonCodes)
+- [PythonCodes](#PythonCodes)
 
 
 ## ShellScripts
